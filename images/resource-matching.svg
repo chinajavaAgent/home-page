@@ -1,0 +1,53 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="500" height="400" fill="white"/>
+  
+  <!-- 连接线 -->
+  <path d="M250 50 L150 150" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M250 50 L350 150" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M150 150 L100 250" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M150 150 L200 250" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M350 150 L300 250" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M350 150 L400 250" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M250 50 L250 350" stroke="#16D3A9" stroke-width="3" />
+  <path d="M100 250 L250 350" stroke="#16D3A9" stroke-width="3" />
+  <path d="M200 250 L250 350" stroke="#16D3A9" stroke-width="3" />
+  <path d="M300 250 L250 350" stroke="#16D3A9" stroke-width="3" />
+  <path d="M400 250 L250 350" stroke="#16D3A9" stroke-width="3" />
+  
+  <!-- 中心节点 - AI匹配 -->
+  <circle cx="250" cy="50" r="40" fill="#3466F6" />
+  <circle cx="250" cy="50" r="35" fill="white" />
+  <path d="M250 25 L250 75" stroke="#3466F6" stroke-width="4" />
+  <path d="M225 50 L275 50" stroke="#3466F6" stroke-width="4" />
+  <circle cx="250" cy="50" r="15" fill="#E1EBFF" />
+  <text x="250" y="55" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#3466F6">AI</text>
+  
+  <!-- 资源类型节点 -->
+  <circle cx="150" cy="150" r="30" fill="#E1EBFF" />
+  <text x="150" y="155" text-anchor="middle" font-family="Arial" font-size="10" fill="#3466F6">技术资源</text>
+  
+  <circle cx="350" cy="150" r="30" fill="#E1EBFF" />
+  <text x="350" y="155" text-anchor="middle" font-family="Arial" font-size="10" fill="#3466F6">人才资源</text>
+  
+  <!-- 具体资源节点 -->
+  <rect x="80" y="230" width="40" height="40" rx="8" fill="#E1EBFF" />
+  <text x="100" y="255" text-anchor="middle" font-family="Arial" font-size="8" fill="#3466F6">开发者</text>
+  
+  <rect x="180" y="230" width="40" height="40" rx="8" fill="#E1EBFF" />
+  <text x="200" y="255" text-anchor="middle" font-family="Arial" font-size="8" fill="#3466F6">产品经理</text>
+  
+  <rect x="280" y="230" width="40" height="40" rx="8" fill="#E1EBFF" />
+  <text x="300" y="255" text-anchor="middle" font-family="Arial" font-size="8" fill="#3466F6">设计师</text>
+  
+  <rect x="380" y="230" width="40" height="40" rx="8" fill="#E1EBFF" />
+  <text x="400" y="255" text-anchor="middle" font-family="Arial" font-size="8" fill="#3466F6">投资人</text>
+  
+  <!-- 匹配结果 -->
+  <circle cx="250" cy="350" r="40" fill="#16D3A9" />
+  <circle cx="250" cy="350" r="35" fill="white" />
+  <path d="M235 350 L265 350" stroke="#16D3A9" stroke-width="3" />
+  <path d="M235 340 L245 350 L235 360" stroke="#16D3A9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M265 340 L255 350 L265 360" stroke="#16D3A9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+  <text x="250" y="375" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#16D3A9">匹配成功</text>
+</svg> 

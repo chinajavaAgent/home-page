@@ -1,0 +1,52 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="300" cy="200" r="180" fill="#F0F5FF" />
+  
+  <!-- 连接线 -->
+  <path d="M200 150 L280 120" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M280 120 L360 160" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M360 160 L400 240" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M400 240 L320 280" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M320 280 L200 260" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M200 260 L200 150" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M200 150 L360 160" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M280 120 L320 280" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M200 260 L400 240" stroke="#3466F6" stroke-width="2" stroke-dasharray="4 4" />
+  
+  <!-- 节点 - 人物图标 -->
+  <circle cx="200" cy="150" r="30" fill="#3466F6" />
+  <circle cx="200" cy="150" r="24" fill="white" />
+  <path d="M190 140 C190 136 194 132 200 132 C206 132 210 136 210 140 C210 144 206 148 200 148 C194 148 190 144 190 140Z" fill="#3466F6" />
+  <path d="M185 160 C185 152 192 148 200 148 C208 148 215 152 215 160" stroke="#3466F6" stroke-width="4" stroke-linecap="round" />
+  
+  <circle cx="280" cy="120" r="25" fill="#16D3A9" />
+  <circle cx="280" cy="120" r="19" fill="white" />
+  <path d="M272 112 C272 109 276 106 280 106 C284 106 288 109 288 112 C288 115 284 118 280 118 C276 118 272 115 272 112Z" fill="#16D3A9" />
+  <path d="M268 128 C268 122 273 118 280 118 C287 118 292 122 292 128" stroke="#16D3A9" stroke-width="3" stroke-linecap="round" />
+  
+  <circle cx="360" cy="160" r="28" fill="#3466F6" />
+  <circle cx="360" cy="160" r="22" fill="white" />
+  <path d="M350 150 C350 146 354 142 360 142 C366 142 370 146 370 150 C370 154 366 158 360 158 C354 158 350 154 350 150Z" fill="#3466F6" />
+  <path d="M345 170 C345 162 352 158 360 158 C368 158 375 162 375 170" stroke="#3466F6" stroke-width="4" stroke-linecap="round" />
+  
+  <circle cx="400" cy="240" r="32" fill="#16D3A9" />
+  <circle cx="400" cy="240" r="26" fill="white" />
+  <path d="M390 230 C390 226 394 222 400 222 C406 222 410 226 410 230 C410 234 406 238 400 238 C394 238 390 234 390 230Z" fill="#16D3A9" />
+  <path d="M385 250 C385 242 392 238 400 238 C408 238 415 242 415 250" stroke="#16D3A9" stroke-width="4" stroke-linecap="round" />
+  
+  <circle cx="320" cy="280" r="30" fill="#3466F6" />
+  <circle cx="320" cy="280" r="24" fill="white" />
+  <path d="M310 270 C310 266 314 262 320 262 C326 262 330 266 330 270 C330 274 326 278 320 278 C314 278 310 274 310 270Z" fill="#3466F6" />
+  <path d="M305 290 C305 282 312 278 320 278 C328 278 335 282 335 290" stroke="#3466F6" stroke-width="4" stroke-linecap="round" />
+  
+  <circle cx="200" cy="260" r="26" fill="#16D3A9" />
+  <circle cx="200" cy="260" r="20" fill="white" />
+  <path d="M192 252 C192 248 196 244 200 244 C204 244 208 248 208 252 C208 256 204 260 200 260 C196 260 192 256 192 252Z" fill="#16D3A9" />
+  <path d="M188 270 C188 262 193 258 200 258 C207 258 212 262 212 270" stroke="#16D3A9" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- 装饰元素 -->
+  <circle cx="150" cy="100" r="10" fill="#E1EBFF" />
+  <circle cx="450" cy="150" r="15" fill="#E1EBFF" />
+  <circle cx="420" cy="320" r="12" fill="#E1EBFF" />
+  <circle cx="120" cy="280" r="8" fill="#E1EBFF" />
+</svg> 

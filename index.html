@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI领域社群平台 - 连接优质AI群体与人才</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <span>AI<span class="highlight">Connect</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">核心特点</a></li>
+                <li><a href="#groups">优质群组</a></li>
+                <li><a href="#profiles">AI名片</a></li>
+                <li><a href="#resources">资源匹配</a></li>
+                <li><a href="#contact" class="btn-primary">加入我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero区域 -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>打造AI领域<span class="gradient-text">专业社群平台</span></h1>
+                <p class="subtitle">连接优质AI群体，促进资源共享，助力行业创新</p>
+                <div class="hero-btns">
+                    <a href="#groups" class="btn-primary">探索优质群组</a>
+                    <a href="#profiles" class="btn-secondary">提交AI名片</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-container">
+                    <img src="images/hero-illustration.svg" alt="AI社群连接图示">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 数字指标 -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>1000+</h3>
+                <p>精选AI群组</p>
+            </div>
+            <div class="stat-item">
+                <h3>5000+</h3>
+                <p>活跃AI专业人士</p>
+            </div>
+            <div class="stat-item">
+                <h3>300+</h3>
+                <p>成功资源匹配</p>
+            </div>
+            <div class="stat-item">
+                <h3>98%</h3>
+                <p>用户满意度</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心特点 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">我们的<span class="highlight">核心特点</span></h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/icons/groups.svg" alt="AI群组图标">
+                    </div>
+                    <h3>精选优质AI群组</h3>
+                    <p>严格筛选各类AI领域社群，确保高质量的交流环境和专业讨论氛围</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/icons/profiles.svg" alt="AI名片图标">
+                    </div>
+                    <h3>筛选优质AI名片</h3>
+                    <p>展示AI领域优秀人才，帮助专业人士扩大影响力和建立专业形象</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/icons/matching.svg" alt="资源匹配图标">
+                    </div>
+                    <h3>智能资源匹配</h3>
+                    <p>平台自动匹配相关资源，促进AI领域合作与共创，实现资源高效利用</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 优质群组展示 -->
+    <section id="groups" class="groups">
+        <div class="container">
+            <h2 class="section-title">探索<span class="highlight">优质AI群组</span></h2>
+            <div class="group-filters" id="groupFilters">
+                <!-- 分类按钮将由JS动态渲染 -->
+            </div>
+            <div class="group-grid" id="groupGrid">
+                <!-- 群组卡片将由JS动态渲染 -->
+            </div>
+            <div class="center-btn">
+                <a href="#" class="btn-primary">查看更多群组</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI名片区域 -->
+    <section id="profiles" class="profiles">
+        <div class="container">
+            <h2 class="section-title">优质<span class="highlight">AI名片</span></h2>
+            <p class="section-desc">展示您的AI领域专业能力，连接更多行业资源</p>
+            
+            <div class="profiles-container" id="profilesContainer">
+                <!-- AI名片卡片将由JS动态渲染 -->
+            </div>
+            
+            <div class="profile-cta">
+                <h3>想要展示您的AI专业能力?</h3>
+                <p>提交您的AI名片，连接更多行业资源，扩大您的影响力</p>
+                <a href="#" class="btn-primary">提交我的AI名片</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 资源匹配平台 -->
+    <section id="resources" class="resources">
+        <div class="container">
+            <h2 class="section-title">AI领域<span class="highlight">资源匹配</span></h2>
+            <div class="resources-grid">
+                <div class="resource-info">
+                    <h3>智能匹配，高效连接</h3>
+                    <p>我们的平台利用AI技术，根据您的专业背景、技能需求和发展方向，智能推荐最适合您的资源与合作伙伴</p>
+                    <ul class="resource-list">
+                        <li><span>项目合作</span>连接开发者、产品经理与设计师</li>
+                        <li><span>技术交流</span>匹配相似技术领域的专业人士</li>
+                        <li><span>投融资对接</span>连接创业者与投资人</li>
+                        <li><span>人才招聘</span>精准对接AI领域人才需求</li>
+                    </ul>
+                    <a href="#" class="btn-primary">开始匹配</a>
+                </div>
+                <div class="resource-image">
+                    <img src="images/resource-matching.svg" alt="资源匹配示意图">
+                </div>
+            </div>
+
+            <div class="success-stories">
+                <h3>成功案例</h3>
+                <div class="story-cards">
+                    <div class="story-card">
+                        <p>"通过平台，我们的AI医疗项目找到了理想的技术合作伙伴，大大加速了产品开发进程。"</p>
+                        <div class="story-author">
+                            <img src="images/testimonials/user1.jpg" alt="用户头像">
+                            <div>
+                                <span class="name">王总监</span>
+                                <span class="company">健康科技有限公司</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-card">
+                        <p>"作为一名AI开发者，平台帮我找到了志同道合的创业伙伴，现在我们的项目已获得种子轮融资。"</p>
+                        <div class="story-author">
+                            <img src="images/testimonials/user2.jpg" alt="用户头像">
+                            <div>
+                                <span class="name">陈工程师</span>
+                                <span class="company">智能科技创始人</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 加入我们区域 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>加入<span class="highlight">AI领域专业平台</span></h2>
+                    <p>成为我们平台的一部分，连接优质AI资源，促进行业交流与合作</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <img src="images/icons/wechat.svg" alt="微信图标">
+                            <div>
+                                <h4>关注公众号</h4>
+                                <p>扫描二维码，获取最新AI群组动态</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <img src="images/icons/email.svg" alt="邮箱图标">
+                            <div>
+                                <h4>电子邮件</h4>
+                                <p>contact@aiconnect.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>留言咨询</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">您的姓名</label>
+                            <input type="text" id="name" placeholder="请输入您的姓名">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">电子邮箱</label>
+                            <input type="email" id="email" placeholder="请输入您的电子邮箱">
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">您感兴趣的内容</label>
+                            <select id="interest">
+                                <option value="">请选择您感兴趣的内容</option>
+                                <option value="group">加入AI群组</option>
+                                <option value="profile">提交AI名片</option>
+                                <option value="resource">资源匹配</option>
+                                <option value="cooperation">商务合作</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">留言内容</label>
+                            <textarea id="message" placeholder="请输入您的留言内容"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">提交留言</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>AI<span class="highlight">Connect</span></span>
+                    <p>连接AI领域优质资源的专业平台</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-group">
+                        <h4>探索</h4>
+                        <ul>
+                            <li><a href="#groups">优质群组</a></li>
+                            <li><a href="#profiles">AI名片</a></li>
+                            <li><a href="#resources">资源匹配</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-group">
+                        <h4>关于我们</h4>
+                        <ul>
+                            <li><a href="#">平台介绍</a></li>
+                            <li><a href="#">团队成员</a></li>
+                            <li><a href="#">发展历程</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-group">
+                        <h4>联系我们</h4>
+                        <ul>
+                            <li><a href="#">联系方式</a></li>
+                            <li><a href="#">商务合作</a></li>
+                            <li><a href="#">帮助中心</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 AIConnect 版权所有</p>
+                <div class="footer-social">
+                    <a href="#"><img src="images/icons/wechat.svg" alt="微信"></a>
+                    <a href="#"><img src="images/icons/weibo.svg" alt="微博"></a>
+                    <a href="#"><img src="images/icons/zhihu.svg" alt="知乎"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
