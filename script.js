@@ -177,6 +177,16 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.removeChild(a);
         };
     }
+
+    // 初始化AOS动画库
+    if (window.AOS) {
+        AOS.init({
+            once: true,
+            offset: 60,
+            duration: 900,
+            easing: 'ease-out-cubic',
+        });
+    }
 });
 
 // 辅助函数

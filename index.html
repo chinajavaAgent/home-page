@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS动画库 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 </head>
 <body>
     <!-- 导航栏 -->
@@ -27,7 +29,7 @@
     </header>
 
     <!-- Hero区域 -->
-    <section class="hero">
+    <section class="hero" data-aos="fade-up" data-aos-duration="900">
         <div class="container hero-content">
             <div class="hero-text">
                 <h1>打造AI领域<span class="gradient-text">专业社群平台</span></h1>
@@ -46,7 +48,7 @@
     </section>
 
     <!-- 数字指标 -->
-    <section class="stats">
+    <section class="stats" data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
         <div class="container">
             <div class="stat-item">
                 <h3>1000+</h3>
@@ -68,7 +70,7 @@
     </section>
 
     <!-- 核心特点 -->
-    <section id="features" class="features">
+    <section id="features" class="features" data-aos="fade-up" data-aos-delay="200" data-aos-duration="900">
         <div class="container">
             <h2 class="section-title">我们的<span class="highlight">核心特点</span></h2>
             <div class="feature-grid">
@@ -98,7 +100,7 @@
     </section>
 
     <!-- 优质群组展示 -->
-    <section id="groups" class="groups">
+    <section id="groups" class="groups" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
         <div class="container">
             <h2 class="section-title">探索<span class="highlight">优质AI群组</span></h2>
             <div class="group-filters" id="groupFilters">
@@ -114,7 +116,7 @@
     </section>
 
     <!-- AI名片区域 -->
-    <section id="profiles" class="profiles">
+    <section id="profiles" class="profiles" data-aos="fade-up" data-aos-delay="400" data-aos-duration="900">
         <div class="container">
             <h2 class="section-title">优质<span class="highlight">AI名片</span></h2>
             <p class="section-desc">展示您的AI领域专业能力，连接更多行业资源</p>
@@ -132,7 +134,7 @@
     </section>
 
     <!-- 资源匹配平台 -->
-    <section id="resources" class="resources">
+    <section id="resources" class="resources" data-aos="fade-up" data-aos-delay="500" data-aos-duration="900">
         <div class="container">
             <h2 class="section-title">AI领域<span class="highlight">资源匹配</span></h2>
             <div class="resources-grid">
@@ -183,7 +185,7 @@
     </section>
 
     <!-- 加入我们区域 -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" data-aos="fade-up" data-aos-delay="600" data-aos-duration="900">
         <div class="container">
             <div class="contact-content">
                 <div class="contact-info">
@@ -214,13 +216,15 @@
     </section>
 
     <!-- 页脚 -->
-    <footer>
+    <footer data-aos="fade-up" data-aos-delay="700" data-aos-duration="900">
         <div class="footer-bottom">
             <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" class="icp-link">闽ICP备08105208号-1</a>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <!-- AOS动画库 -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
     <!-- 通用二维码弹窗 -->
     <div id="qrModal" class="qr-modal" style="display:none;">
