@@ -615,6 +615,18 @@ nav {
     color: var(--gray-color);
 }
 
+.story-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 18px auto;
+    box-shadow: 0 2px 12px rgba(52,102,246,0.13);
+    border: 2.5px solid #fff;
+    background: #f8fafc;
+}
+
 /* 加入我们区域 */
 .contact {
     padding: 80px 0;
