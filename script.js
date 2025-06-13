@@ -112,6 +112,71 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 渲染名片
     renderProfiles(profileData);
+
+    // 通用二维码弹窗逻辑
+    function showQrModal() {
+        const modal = document.getElementById('qrModal');
+        if (modal) modal.style.display = 'flex';
+    }
+    function hideQrModal() {
+        const modal = document.getElementById('qrModal');
+        if (modal) modal.style.display = 'none';
+    }
+
+    // 绑定二维码弹窗关闭
+    const qrModalClose = document.getElementById('qrModalClose');
+    const qrModal = document.getElementById('qrModal');
+    if (qrModalClose && qrModal) {
+        qrModalClose.onclick = hideQrModal;
+        qrModal.querySelector('.qr-modal-backdrop').onclick = hideQrModal;
+    }
+
+    // 绑定所有相关按钮弹窗
+    // 1. 提交AI名片
+    setTimeout(function() { // 确保渲染后再绑定
+        const submitProfileBtn = document.querySelector('.profile-cta .btn-primary');
+        if (submitProfileBtn) {
+            submitProfileBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                showQrModal();
+            });
+        }
+    }, 0);
+
+    // 2. 申请加入（群组卡片）
+    document.body.addEventListener('click', function(e) {
+        const target = e.target;
+        if (target.classList.contains('btn-secondary') && target.textContent.includes('申请加入')) {
+            e.preventDefault();
+            showQrModal();
+        }
+        // 3. 查看二维码（名片卡片）
+        if (target.classList.contains('btn-outline') && target.textContent.includes('查看二维码')) {
+            e.preventDefault();
+            showQrModal();
+        }
+        // 4. 开始匹配
+        if (target.classList.contains('btn-primary') && target.textContent.includes('开始匹配')) {
+            e.preventDefault();
+            showQrModal();
+        }
+    }, false);
+
+    // 下载二维码功能
+    const qrDownloadBtn = document.getElementById('qrModalDownload');
+    if (qrDownloadBtn) {
+        qrDownloadBtn.onclick = function() {
+            const img = document.getElementById('qrModalImg');
+            if (!img) return;
+            const url = img.src;
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'AI社群二维码.jpg';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        };
+    }
 });
 
 // 辅助函数
